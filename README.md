@@ -19,8 +19,8 @@ iOS ecosystem, Apple mindset, tooling বুঝে নেওয়া
 - iOS development কিভাবে চিন্তা করে বুঝবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=fsnvcJ0sEaw  
-Alternative: https://www.youtube.com/watch?v=9trHn1n6b2I  
+Primary: https://www.youtube.com/watch?v=nqTcAzPS3oc  
+Alternative: https://www.youtube.com/@AppleDeveloper
 
 ### 📘 Documentation
 https://developer.apple.com/design/human-interface-guidelines/
@@ -55,8 +55,8 @@ func greet(user: User) -> String {
 - Swift code confidently পড়তে ও লিখতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=comQ1-x2a1Q  
-Alternative: https://www.youtube.com/watch?v=Ulp1Kimblg0  
+Primary: https://www.youtube.com/watch?v=JEiENT6b44Y  
+Alternative: https://www.youtube.com/playlist?list=PLwvDm4VfkdpiLvzZFJI6rVIBtdolrJBVB
 
 ### 📘 Documentation
 https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
@@ -89,8 +89,8 @@ Button("Increase") {
 - Pure SwiftUI দিয়ে multi-screen app বানাতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=bqu6BquVi2M  
-Alternative: https://www.youtube.com/watch?v=F2ojC6TNwws  
+Primary: https://www.youtube.com/watch?v=7EUVQiPURhE  
+Alternative: https://www.swift.org/getting-started/swiftui/
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/swiftui
@@ -117,8 +117,8 @@ class AppViewModel: ObservableObject {
 - Complex app state cleanভাবে manage করতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=J9Kqkz9cZlM  
-Alternative: https://www.youtube.com/watch?v=7LrH0X0k9yE  
+Primary: https://www.youtube.com/watch?v=ASE9XOiD0qk  
+Alternative: https://www.youtube.com/watch?v=lxaEAHNmhY4
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/combine/observableobject
@@ -144,8 +144,8 @@ let (data, _) = try await URLSession.shared.data(from: url)
 - Production-grade API integration
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=YVqUQ0K0XH8  
-Alternative: https://www.youtube.com/watch?v=ZJpMZ9u9KxQ  
+Primary: https://www.youtube.com/watch?v=Owcx2Upk6p8  
+Alternative: https://www.avanderlee.com/concurrency/urlsession-async-await-network-requests-in-swift/
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/foundation/urlsession
@@ -173,8 +173,8 @@ URLSession.shared.dataTaskPublisher(for: url)
 - Reactive architecture বুঝবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=0cZ9dF4ZL0I  
-Alternative: https://www.youtube.com/watch?v=1l0KkPZ7R4Y  
+Primary: https://www.youtube.com/watch?v=2ORJcQgP4a0  
+Alternative: https://www.vadimbulavin.com/swift-combine-framework-tutorial-getting-started/
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/combine
@@ -203,8 +203,8 @@ https://developer.apple.com/documentation/combine
 - Offline-first iOS app বানাতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=O3cHk4Tz9aE  
-Alternative: https://www.youtube.com/watch?v=rdN5B1ZKJYQ  
+Primary: https://www.youtube.com/watch?v=nTcrzJ49m-U  
+Alternative: https://www.hackingwithswift.com/quick-start/swiftui/introduction-to-using-core-data-with-swiftui
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/coredata
@@ -225,8 +225,8 @@ https://developer.apple.com/documentation/coredata
 - Large-scale app design করতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=fsnvcJ0sEaw  
-Alternative: https://www.youtube.com/watch?v=9trHn1n6b2I  
+Primary: https://www.youtube.com/watch?v=EOueEi-HdT8  
+Alternative: https://www.youtube.com/watch?v=oQMT5fcYKMs
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app
@@ -248,8 +248,8 @@ https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-ap
 - App Store-grade performance
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=KJpFZzXzY9g  
-Alternative: https://www.youtube.com/watch?v=2k9X1R5KZP0  
+Primary: https://www.youtube.com/watch?v=YR3PgwKKraw  
+Alternative: https://www.youtube.com/watch?v=ZeZPmC861E8
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/xcode/instruments
