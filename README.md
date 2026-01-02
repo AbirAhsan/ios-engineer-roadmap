@@ -4,6 +4,22 @@
 
 ---
 
+## Contents
+- PHASE 0 — Mindset & Environment
+- PHASE 1 — Swift Language
+- PHASE 2 — SwiftUI Fundamentals
+- PHASE 3 — App State & Data Flow
+- PHASE 4 — Networking & API
+- PHASE 5 — Combine
+- PHASE 6 — Local Database (CoreData)
+- PHASE 7 — Architecture
+- PHASE 8 — Testing, Performance & Debugging
+- PHASE 9 — System APIs & Advanced iOS
+- PHASE 10 — App Store & Professional Level
+- Advanced iOS Engineer Companion Guide
+
+---
+
 ## PHASE 0 — Mindset & Environment (Day 0)
 
 ### 🎯 Goal
@@ -15,12 +31,18 @@ iOS ecosystem, Apple mindset, tooling বুঝে নেওয়া
 - Xcode install
 - Apple Human Interface Guidelines overview
 
+### Bonus (Must-have)
+- Xcode basics (Project/Target/Scheme, Simulator vs Device)
+- Git basics (commit, branch, PR workflow) + GitHub account setup
+- Swift Package Manager (SPM) overview (dependency add/remove, versioning)
+
 ### Expected Output
 - iOS development কিভাবে চিন্তা করে বুঝবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=fsnvcJ0sEaw  
-Alternative: https://www.youtube.com/watch?v=9trHn1n6b2I  
+Primary: https://www.youtube.com/watch?v=xkgaIm7QxK0  
+Alternative: https://www.youtube.com/watch?v=HJDCXdhQaP0  
+Bonus: https://www.youtube.com/watch?v=aDoYHak5UsA  
 
 ### 📘 Documentation
 https://developer.apple.com/design/human-interface-guidelines/
@@ -39,6 +61,11 @@ https://developer.apple.com/design/human-interface-guidelines/
 - Struct vs Class
 - Protocol
 
+### Bonus (Must-have)
+- Generics (basic)
+- Error handling (throw/try/catch)
+- ARC & memory basics (strong/weak, retain cycle concept)
+
 ### Hands-on
 ```swift
 struct User {
@@ -55,8 +82,9 @@ func greet(user: User) -> String {
 - Swift code confidently পড়তে ও লিখতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=comQ1-x2a1Q  
-Alternative: https://www.youtube.com/watch?v=Ulp1Kimblg0  
+Primary: https://www.youtube.com/watch?v=8Xg7E9shq0U  
+Alternative: https://www.youtube.com/watch?v=CwA1VWP0Ldw  
+Bonus: https://www.youtube.com/watch?v=xT41Be37fjY  
 
 ### 📘 Documentation
 https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
@@ -76,6 +104,10 @@ https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 - NavigationStack
 - Sheet, Alert
 
+### Bonus (Must-have)
+- Accessibility basics (Dynamic Type, VoiceOver labels)
+- Localization basics (String catalogs / Localizable strings ধারণা)
+
 ### Hands-on
 ```swift
 @State private var count = 0
@@ -89,8 +121,9 @@ Button("Increase") {
 - Pure SwiftUI দিয়ে multi-screen app বানাতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=bqu6BquVi2M  
-Alternative: https://www.youtube.com/watch?v=F2ojC6TNwws  
+Primary: https://www.youtube.com/watch?v=b1oC7sLIgpI  
+Alternative: https://www.youtube.com/watch?v=HyQgpxX__-A  
+Bonus: https://www.youtube.com/watch?v=1piGNwdx9mA  
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/swiftui
@@ -106,6 +139,10 @@ https://developer.apple.com/documentation/swiftui
 - @EnvironmentObject
 - Single Source of Truth
 
+### Bonus (Must-have)
+- Data flow patterns (State → ViewModel → Service)
+- Caching strategy (in-memory vs disk) ধারণা
+
 ### Hands-on
 ```swift
 class AppViewModel: ObservableObject {
@@ -117,8 +154,9 @@ class AppViewModel: ObservableObject {
 - Complex app state cleanভাবে manage করতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=J9Kqkz9cZlM  
-Alternative: https://www.youtube.com/watch?v=7LrH0X0k9yE  
+Primary: https://www.youtube.com/watch?v=Duf7XxMNYsc  
+Alternative: https://www.youtube.com/watch?v=EK7SthdWV2w  
+Bonus: https://www.youtube.com/watch?v=Nm9sXBSHZsI  
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/combine/observableobject
@@ -135,6 +173,11 @@ https://developer.apple.com/documentation/combine/observableobject
 - Error handling
 - Pagination
 
+### Bonus (Must-have)
+- Swift Concurrency essentials: Task, cancellation, MainActor
+- Structured concurrency: async let, TaskGroup (concept)
+- Retry/backoff + rate-limit handling (basic)
+
 ### Hands-on
 ```swift
 let (data, _) = try await URLSession.shared.data(from: url)
@@ -144,11 +187,15 @@ let (data, _) = try await URLSession.shared.data(from: url)
 - Production-grade API integration
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=YVqUQ0K0XH8  
-Alternative: https://www.youtube.com/watch?v=ZJpMZ9u9KxQ  
+Primary: https://www.youtube.com/watch?v=Pc_mWuAldLw  
+Alternative: https://www.youtube.com/watch?v=3M_gjyDaV08  
+Bonus: https://www.youtube.com/watch?v=LVWZG9QuMLg  
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/foundation/urlsession
+
+### 📘 Bonus Docs
+https://developer.apple.com/documentation/swift/concurrency
 
 ---
 
@@ -162,6 +209,10 @@ https://developer.apple.com/documentation/foundation/urlsession
 - error handling
 - Combine + API
 
+### Bonus (Must-have)
+- Scheduler basics (receive(on:), subscribe(on:))
+- Subjects (PassthroughSubject/CurrentValueSubject) concept
+
 ### Hands-on
 ```swift
 URLSession.shared.dataTaskPublisher(for: url)
@@ -173,8 +224,9 @@ URLSession.shared.dataTaskPublisher(for: url)
 - Reactive architecture বুঝবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=0cZ9dF4ZL0I  
-Alternative: https://www.youtube.com/watch?v=1l0KkPZ7R4Y  
+Primary: https://www.youtube.com/watch?v=5NfhgZkBKKg  
+Alternative: https://www.youtube.com/watch?v=tbzR-eHr6oo  
+Bonus: https://www.youtube.com/watch?v=5NfhgZkBKKg  
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/combine
@@ -191,6 +243,10 @@ https://developer.apple.com/documentation/combine
 - @FetchRequest
 - Background save
 
+### Bonus (Must-have)
+- Data migration basics (lightweight migration concept)
+- Threading rules (context confinement) ধারণা
+
 ### Hands-on
 ```swift
 @FetchRequest(
@@ -203,8 +259,9 @@ https://developer.apple.com/documentation/combine
 - Offline-first iOS app বানাতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=O3cHk4Tz9aE  
-Alternative: https://www.youtube.com/watch?v=rdN5B1ZKJYQ  
+Primary: https://www.youtube.com/watch?v=krRkm8w22A8  
+Alternative: https://www.youtube.com/watch?v=n2AhK0GZji0  
+Bonus: https://www.youtube.com/watch?v=L4UTRwuDCXY  
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/coredata
@@ -221,12 +278,17 @@ https://developer.apple.com/documentation/coredata
 - Dependency Injection
 - Testable code
 
+### Bonus (Must-have)
+- Module boundaries (feature modules) ধারণা
+- SPM-based modularization basics
+
 ### Expected Output
 - Large-scale app design করতে পারবেন
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=fsnvcJ0sEaw  
-Alternative: https://www.youtube.com/watch?v=9trHn1n6b2I  
+Primary: https://www.youtube.com/watch?v=Au4EUIckSrE  
+Alternative: https://www.youtube.com/watch?v=EOueEi-HdT8  
+Bonus: https://www.youtube.com/watch?v=jnv3K0mbIDo  
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app
@@ -244,12 +306,18 @@ https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-ap
 - retain cycle
 - weak self
 
+### Bonus (Must-have)
+- Observability basics: logging (os.Logger), metrics ধারণা
+- Crash reporting workflow (Crash logs / symbolication ধারণা)
+- Networking debugging (Charles/Proxyman concepts) + Xcode network inspector
+
 ### Expected Output
 - App Store-grade performance
 
 ### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=KJpFZzXzY9g  
-Alternative: https://www.youtube.com/watch?v=2k9X1R5KZP0  
+Primary: https://www.youtube.com/watch?v=ZeZPmC861E8  
+Alternative: https://www.youtube.com/watch?v=WFnkNcvLnCI  
+Bonus: https://www.youtube.com/watch?v=dNpjCbdfRc8  
 
 ### 📘 Documentation
 https://developer.apple.com/documentation/xcode/instruments
@@ -258,6 +326,8 @@ https://developer.apple.com/documentation/xcode/instruments
 
 ## PHASE 9 — System APIs & Advanced iOS
 
+### Day 41–50
+
 ### Topics
 - Camera
 - Location
@@ -265,12 +335,31 @@ https://developer.apple.com/documentation/xcode/instruments
 - Background tasks
 - App lifecycle
 
+### Bonus (Must-have)
+- Deep Links & Universal Links (routing mental model)
+- Widgets / App Intents overview (when needed)
+- Permissions & privacy prompts best practices
+
+### Expected Output
+- Common system APIs integrate করতে পারবেন
+
+### 🎥 YouTube
+Primary: https://www.youtube.com/watch?v=Lb7OShyNSdM  
+Alternative: https://www.youtube.com/watch?v=TPAYEBQ1eR0  
+Bonus: https://www.youtube.com/watch?v=kNbEEYlFIPs  
+
 ### 📘 Documentation
 https://developer.apple.com/documentation
+
+### 📘 Bonus Docs
+https://developer.apple.com/documentation/xcode/configuring-universal-links
+https://developer.apple.com/documentation/widgetkit
 
 ---
 
 ## PHASE 10 — App Store & Professional Level
+
+### Day 51–55
 
 ### Topics
 - Certificates
@@ -279,11 +368,24 @@ https://developer.apple.com/documentation
 - App Store review
 - Privacy & compliance
 
+### Bonus (Must-have)
+- App privacy basics (permissions justification, data collection mindset)
+- Keychain basics (token/password storage)
+- Release checklist (versioning, build number, changelog, rollback plan)
+
 ### Expected Output
 - End-to-end iOS engineer
 
+### 🎥 YouTube
+Primary: https://www.youtube.com/watch?v=Qgq6jsRtfbA  
+Alternative: https://www.youtube.com/watch?v=JHJTlIT5laI  
+Bonus: https://www.youtube.com/watch?v=D7R87wm9IJE  
+
 ### 📘 Documentation
 https://developer.apple.com/app-store/
+
+### 📘 Bonus Docs
+https://developer.apple.com/documentation/security/keychain_services
 
 ---
 
