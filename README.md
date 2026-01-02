@@ -1,24 +1,86 @@
+<div align="center">
+
 # Native iOS Development Roadmap
 ## From Absolute Beginner to Senior iOS Engineer
-*(Swift + SwiftUI + Combine + CoreData + Architecture + Performance)*
+*Swift • SwiftUI • Combine • CoreData • Architecture • Performance*
+
+![Swift](https://img.shields.io/badge/Swift-Language-orange)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-UI-blue)
+![Combine](https://img.shields.io/badge/Combine-Reactive-purple)
+![CoreData](https://img.shields.io/badge/CoreData-Local%20DB-informational)
+![iOS](https://img.shields.io/badge/iOS-Development-black)
+
+<a href="https://www.swift.org/">Swift</a> •
+<a href="https://developer.apple.com/xcode/swiftui/">SwiftUI</a> •
+<a href="https://developer.apple.com/documentation/combine">Combine</a> •
+<a href="https://developer.apple.com/documentation/coredata">CoreData</a>
+
+</div>
 
 ---
 
-## Contents
-- PHASE 0 — Mindset & Environment
-- PHASE 1 — Swift Language
-- PHASE 2 — SwiftUI Fundamentals
-- PHASE 3 — App State & Data Flow
-- PHASE 4 — Networking & API
-- PHASE 5 — Combine
-- PHASE 6 — Local Database (CoreData)
-- PHASE 7 — Architecture
-- PHASE 8 — Testing, Performance & Debugging
-- PHASE 9 — System APIs & Advanced iOS
-- PHASE 10 — App Store & Professional Level
-- Advanced iOS Engineer Companion Guide
+## How to Use This Roadmap
+- 1টা phase শেষ করে **একটা mini app** বানান (hands-on must)
+- Notes রাখুন: “What I learned / What I built / What I got stuck on”
+- প্রতিটা phase শেষে আপনার project code GitHub-এ push করুন
+
+**Last updated:** 2026-01-02
 
 ---
+
+## At a Glance
+| Phase | Time | Focus | Output |
+|------:|:-----|:------|:-------|
+| 0 | Day 0 | Mindset + Setup | Tooling ready |
+| 1 | Day 1–3 | Swift fundamentals | Read/write Swift confidently |
+| 2 | Day 4–10 | SwiftUI UI | Multi-screen SwiftUI app |
+| 3 | Day 11–14 | State + Data flow | Clean state management |
+| 4 | Day 15–18 | Networking | Production-grade API integration |
+| 5 | Day 19–24 | Combine | Reactive pipelines |
+| 6 | Day 25–30 | CoreData | Offline-first apps |
+| 7 | Day 31–35 | Architecture | Testable + scalable design |
+| 8 | Day 36–40 | Testing/Perf | App Store-grade performance |
+| 9 | Day 41–50 | System APIs | Real-world integrations |
+| 10 | Day 51–55 | App Store | End-to-end shipping |
+
+<details>
+<summary><strong>Contents (Clickable)</strong></summary>
+
+- [PHASE 0 — Mindset & Environment](#phase-0)
+- [PHASE 1 — Swift Language](#phase-1)
+- [PHASE 2 — SwiftUI Fundamentals](#phase-2)
+- [PHASE 3 — App State & Data Flow](#phase-3)
+- [PHASE 4 — Networking & API](#phase-4)
+- [PHASE 5 — Combine](#phase-5)
+- [PHASE 6 — Local Database (CoreData)](#phase-6)
+- [PHASE 7 — Architecture](#phase-7)
+- [PHASE 8 — Testing, Performance & Debugging](#phase-8)
+- [PHASE 9 — System APIs & Advanced iOS](#phase-9)
+- [PHASE 10 — App Store & Professional Level](#phase-10)
+- [Advanced iOS Engineer Companion Guide](#companion-guide)
+
+</details>
+
+<details>
+<summary><strong>Progress Tracker</strong> (tick as you go)</summary>
+
+- [ ] [Phase 0 — Setup](#phase-0)
+- [ ] [Phase 1 — Swift](#phase-1)
+- [ ] [Phase 2 — SwiftUI](#phase-2)
+- [ ] [Phase 3 — State/Data Flow](#phase-3)
+- [ ] [Phase 4 — Networking](#phase-4)
+- [ ] [Phase 5 — Combine](#phase-5)
+- [ ] [Phase 6 — CoreData](#phase-6)
+- [ ] [Phase 7 — Architecture](#phase-7)
+- [ ] [Phase 8 — Testing/Perf](#phase-8)
+- [ ] [Phase 9 — System APIs](#phase-9)
+- [ ] [Phase 10 — App Store](#phase-10)
+
+</details>
+
+---
+
+<a id="phase-0"></a>
 
 ## PHASE 0 — Mindset & Environment (Day 0)
 
@@ -39,15 +101,24 @@ iOS ecosystem, Apple mindset, tooling বুঝে নেওয়া
 ### Expected Output
 - iOS development কিভাবে চিন্তা করে বুঝবেন
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=xkgaIm7QxK0  
-Alternative: https://www.youtube.com/watch?v=HJDCXdhQaP0  
-Bonus: https://www.youtube.com/watch?v=aDoYHak5UsA  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/design/human-interface-guidelines/
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=xkgaIm7QxK0)
+- Alternative: [Watch](https://www.youtube.com/watch?v=HJDCXdhQaP0)
+- Bonus: [Watch](https://www.youtube.com/watch?v=aDoYHak5UsA)
+
+**Docs**
+- [Apple Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-1"></a>
 
 ## PHASE 1 — Swift Language (Foundation Level)
 ### Day 1–3: Swift Basics
@@ -81,15 +152,24 @@ func greet(user: User) -> String {
 ### Expected Output
 - Swift code confidently পড়তে ও লিখতে পারবেন
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=8Xg7E9shq0U  
-Alternative: https://www.youtube.com/watch?v=CwA1VWP0Ldw  
-Bonus: https://www.youtube.com/watch?v=xT41Be37fjY  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=8Xg7E9shq0U)
+- Alternative: [Watch](https://www.youtube.com/watch?v=CwA1VWP0Ldw)
+- Bonus: [Watch](https://www.youtube.com/watch?v=xT41Be37fjY)
+
+**Docs**
+- [The Swift Programming Language (Book)](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-2"></a>
 
 ## PHASE 2 — SwiftUI Fundamentals (Modern UI)
 ### Day 4–10
@@ -120,15 +200,24 @@ Button("Increase") {
 ### Expected Output
 - Pure SwiftUI দিয়ে multi-screen app বানাতে পারবেন
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=b1oC7sLIgpI  
-Alternative: https://www.youtube.com/watch?v=HyQgpxX__-A  
-Bonus: https://www.youtube.com/watch?v=1piGNwdx9mA  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/documentation/swiftui
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=b1oC7sLIgpI)
+- Alternative: [Watch](https://www.youtube.com/watch?v=HyQgpxX__-A)
+- Bonus: [Watch](https://www.youtube.com/watch?v=1piGNwdx9mA)
+
+**Docs**
+- [SwiftUI Documentation](https://developer.apple.com/documentation/swiftui)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-3"></a>
 
 ## PHASE 3 — App State & Data Flow
 ### Day 11–14
@@ -153,15 +242,24 @@ class AppViewModel: ObservableObject {
 ### Expected Output
 - Complex app state cleanভাবে manage করতে পারবেন
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=Duf7XxMNYsc  
-Alternative: https://www.youtube.com/watch?v=EK7SthdWV2w  
-Bonus: https://www.youtube.com/watch?v=Nm9sXBSHZsI  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/documentation/combine/observableobject
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=Duf7XxMNYsc)
+- Alternative: [Watch](https://www.youtube.com/watch?v=EK7SthdWV2w)
+- Bonus: [Watch](https://www.youtube.com/watch?v=Nm9sXBSHZsI)
+
+**Docs**
+- [ObservableObject (Combine)](https://developer.apple.com/documentation/combine/observableobject)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-4"></a>
 
 ## PHASE 4 — Networking & API
 ### Day 15–18
@@ -186,18 +284,27 @@ let (data, _) = try await URLSession.shared.data(from: url)
 ### Expected Output
 - Production-grade API integration
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=Pc_mWuAldLw  
-Alternative: https://www.youtube.com/watch?v=3M_gjyDaV08  
-Bonus: https://www.youtube.com/watch?v=LVWZG9QuMLg  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/documentation/foundation/urlsession
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=Pc_mWuAldLw)
+- Alternative: [Watch](https://www.youtube.com/watch?v=3M_gjyDaV08)
+- Bonus: [Watch](https://www.youtube.com/watch?v=LVWZG9QuMLg)
 
-### 📘 Bonus Docs
-https://developer.apple.com/documentation/swift/concurrency
+**Docs**
+- [URLSession](https://developer.apple.com/documentation/foundation/urlsession)
+
+**Bonus Docs**
+- [Swift Concurrency](https://developer.apple.com/documentation/swift/concurrency)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-5"></a>
 
 ## PHASE 5 — Combine (Reactive Programming)
 ### Day 19–24
@@ -223,15 +330,24 @@ URLSession.shared.dataTaskPublisher(for: url)
 ### Expected Output
 - Reactive architecture বুঝবেন
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=5NfhgZkBKKg  
-Alternative: https://www.youtube.com/watch?v=tbzR-eHr6oo  
-Bonus: https://www.youtube.com/watch?v=5NfhgZkBKKg  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/documentation/combine
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=5NfhgZkBKKg)
+- Alternative: [Watch](https://www.youtube.com/watch?v=tbzR-eHr6oo)
+- Bonus: [Watch](https://www.youtube.com/watch?v=5NfhgZkBKKg)
+
+**Docs**
+- [Combine Documentation](https://developer.apple.com/documentation/combine)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-6"></a>
 
 ## PHASE 6 — Local Database (CoreData)
 ### Day 25–30
@@ -258,15 +374,24 @@ https://developer.apple.com/documentation/combine
 ### Expected Output
 - Offline-first iOS app বানাতে পারবেন
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=krRkm8w22A8  
-Alternative: https://www.youtube.com/watch?v=n2AhK0GZji0  
-Bonus: https://www.youtube.com/watch?v=L4UTRwuDCXY  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/documentation/coredata
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=krRkm8w22A8)
+- Alternative: [Watch](https://www.youtube.com/watch?v=n2AhK0GZji0)
+- Bonus: [Watch](https://www.youtube.com/watch?v=L4UTRwuDCXY)
+
+**Docs**
+- [Core Data Documentation](https://developer.apple.com/documentation/coredata)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-7"></a>
 
 ## PHASE 7 — Architecture (Senior Level)
 ### Day 31–35
@@ -285,15 +410,24 @@ https://developer.apple.com/documentation/coredata
 ### Expected Output
 - Large-scale app design করতে পারবেন
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=Au4EUIckSrE  
-Alternative: https://www.youtube.com/watch?v=EOueEi-HdT8  
-Bonus: https://www.youtube.com/watch?v=jnv3K0mbIDo  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=Au4EUIckSrE)
+- Alternative: [Watch](https://www.youtube.com/watch?v=EOueEi-HdT8)
+- Bonus: [Watch](https://www.youtube.com/watch?v=jnv3K0mbIDo)
+
+**Docs**
+- [Managing Model Data in Your App](https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-8"></a>
 
 ## PHASE 8 — Testing, Performance & Debugging
 ### Day 36–40
@@ -314,15 +448,24 @@ https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-ap
 ### Expected Output
 - App Store-grade performance
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=ZeZPmC861E8  
-Alternative: https://www.youtube.com/watch?v=WFnkNcvLnCI  
-Bonus: https://www.youtube.com/watch?v=dNpjCbdfRc8  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/documentation/xcode/instruments
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=ZeZPmC861E8)
+- Alternative: [Watch](https://www.youtube.com/watch?v=WFnkNcvLnCI)
+- Bonus: [Watch](https://www.youtube.com/watch?v=dNpjCbdfRc8)
+
+**Docs**
+- [Instruments (Xcode)](https://developer.apple.com/documentation/xcode/instruments)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-9"></a>
 
 ## PHASE 9 — System APIs & Advanced iOS
 
@@ -343,19 +486,28 @@ https://developer.apple.com/documentation/xcode/instruments
 ### Expected Output
 - Common system APIs integrate করতে পারবেন
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=Lb7OShyNSdM  
-Alternative: https://www.youtube.com/watch?v=TPAYEBQ1eR0  
-Bonus: https://www.youtube.com/watch?v=kNbEEYlFIPs  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/documentation
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=Lb7OShyNSdM)
+- Alternative: [Watch](https://www.youtube.com/watch?v=TPAYEBQ1eR0)
+- Bonus: [Watch](https://www.youtube.com/watch?v=kNbEEYlFIPs)
 
-### 📘 Bonus Docs
-https://developer.apple.com/documentation/xcode/configuring-universal-links
-https://developer.apple.com/documentation/widgetkit
+**Docs**
+- [Apple Developer Documentation](https://developer.apple.com/documentation)
+
+**Bonus Docs**
+- [Configuring Universal Links](https://developer.apple.com/documentation/xcode/configuring-universal-links)
+- [WidgetKit](https://developer.apple.com/documentation/widgetkit)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
+
+<a id="phase-10"></a>
 
 ## PHASE 10 — App Store & Professional Level
 
@@ -376,16 +528,23 @@ https://developer.apple.com/documentation/widgetkit
 ### Expected Output
 - End-to-end iOS engineer
 
-### 🎥 YouTube
-Primary: https://www.youtube.com/watch?v=Qgq6jsRtfbA  
-Alternative: https://www.youtube.com/watch?v=JHJTlIT5laI  
-Bonus: https://www.youtube.com/watch?v=D7R87wm9IJE  
+<details>
+<summary><strong>Resources</strong> (YouTube + Docs)</summary>
 
-### 📘 Documentation
-https://developer.apple.com/app-store/
+**YouTube**
+- Primary: [Watch](https://www.youtube.com/watch?v=Qgq6jsRtfbA)
+- Alternative: [Watch](https://www.youtube.com/watch?v=JHJTlIT5laI)
+- Bonus: [Watch](https://www.youtube.com/watch?v=D7R87wm9IJE)
 
-### 📘 Bonus Docs
-https://developer.apple.com/documentation/security/keychain_services
+**Docs**
+- [App Store](https://developer.apple.com/app-store/)
+
+**Bonus Docs**
+- [Keychain Services](https://developer.apple.com/documentation/security/keychain_services)
+
+</details>
+
+**↑** [Back to top](#native-ios-development-roadmap)
 
 ---
 
@@ -399,13 +558,18 @@ After this roadmap, you can:
 - ✅ Pass **mid/senior iOS interviews**
 - ✅ Ship **App Store production apps**
 
-# Advanced iOS Engineer Companion Guide
-## Sample Projects • Senior Interview Q&A • Flutter → Native Transition
+**↑** [Back to top](#native-ios-development-roadmap)
+
+<a id="companion-guide"></a>
+
+<details>
+<summary><strong>Advanced iOS Engineer Companion Guide</strong> — Sample Projects • Senior Interview Q&A • Flutter → Native Transition</summary>
+
 *(Swift + SwiftUI | Career & Engineering Focused)*
 
 ---
 
-## PART 1 — Sample Project List (Based on the Roadmap)
+### PART 1 — Sample Project List (Based on the Roadmap)
 
 ### 🟢 Beginner Level Projects
 These projects focus on Swift & SwiftUI fundamentals.
@@ -491,7 +655,7 @@ These projects focus on Swift & SwiftUI fundamentals.
 
 ---
 
-## PART 2 — Senior iOS Interview Q&A
+### PART 2 — Senior iOS Interview Q&A
 
 ### Swift & Language
 **Q:** Struct vs Class difference?  
@@ -529,7 +693,7 @@ These projects focus on Swift & SwiftUI fundamentals.
 
 ---
 
-## PART 3 — Flutter → Native iOS Transition Strategy
+### PART 3 — Flutter → Native iOS Transition Strategy
 
 ### Mental Model Mapping
 | Flutter | Native iOS |
@@ -571,4 +735,6 @@ After completing this guide, you will:
 - Build production-grade native apps
 - Confidently switch between Flutter & Native iOS
 - Clear senior-level iOS interviews
+
+</details>
 
